@@ -436,7 +436,7 @@ When converted to an array, the ``$merged`` collection will look like this::
     [
         ['username' => 'mark', 'skills' => ['PHP', 'Python', 'Ruby']],
         ['username' => 'juan', 'skills' => ['Bash', 'PHP', 'Javascript']],
-        ['username' => 'jose', 'skills' => [Javascript', 'Prolog']]
+        ['username' => 'jose', 'skills' => ['Javascript', 'Prolog']]
     ];
 
 The first parameter for the ``insert`` method is a dot separated path of
